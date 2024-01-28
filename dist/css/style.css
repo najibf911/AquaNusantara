@@ -1002,6 +1002,10 @@ video {
   background-image: url('/public/img/shell.jpg');
 }
 
+.bg-\[url\(\'public\/img\/header1\.jpg\'\)\] {
+  background-image: url('public/img/header1.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
