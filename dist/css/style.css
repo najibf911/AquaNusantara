@@ -966,6 +966,10 @@ video {
   --tw-bg-opacity: 0.25;
 }
 
+.bg-\[url\(\'\.\.\/public\/img\/header1\.jpg\'\)\] {
+  background-image: url('../public/img/header1.jpg');
+}
+
 .bg-\[url\(\'\/public\/img\/background\.png\'\)\] {
   background-image: url('/public/img/background.png');
 }
@@ -1002,8 +1006,52 @@ video {
   background-image: url('/public/img/shell.jpg');
 }
 
-.bg-\[url\(\'public\/img\/header1\.jpg\'\)\] {
-  background-image: url('public/img/header1.jpg');
+.bg-\[url\(\'\*\/public\/img\/header1\.jpg\'\)\] {
+  background-image: url('*/public/img/header1.jpg');
+}
+
+.bg-\[url\(\'\.\/public\/img\/header1\.jpg\'\)\] {
+  background-image: url('./public/img/header1.jpg');
+}
+
+.bg-\[url\(\'\/img\/header1\.jpg\'\)\] {
+  background-image: url('/img/header1.jpg');
+}
+
+.bg-\[url\(\'\.\.\/img\/header1\.jpg\'\)\] {
+  background-image: url('../img/header1.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/header1\.jpg\'\)\] {
+  background-image: url('./img/header1.jpg');
+}
+
+.bg-\[url\(\'\/public\/\/img\/header1\.jpg\'\)\] {
+  background-image: url('/public//img/header1.jpg');
+}
+
+.bg-\[url\(\'\/publicheader1\.jpg\'\)\] {
+  background-image: url('/publicheader1.jpg');
+}
+
+.bg-\[url\(\'\/public\/header1\.jpg\'\)\] {
+  background-image: url('/public/header1.jpg');
+}
+
+.bg-\[url\(\'\/public\/\*\/header1\.jpg\'\)\] {
+  background-image: url('/public/*/header1.jpg');
+}
+
+.bg-\[url\(\'\/public\/\*\*\/header1\.jpg\'\)\] {
+  background-image: url('/public/**/header1.jpg');
+}
+
+.bg-\[url\(\'\/\/public\/\/img\/header1\.jpg\'\)\] {
+  background-image: url('//public//img/header1.jpg');
+}
+
+.bg-\[url\(\'\/public\/\/img\/\/header1\.jpg\'\)\] {
+  background-image: url('/public//img//header1.jpg');
 }
 
 .bg-cover {
