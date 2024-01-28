@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AquaNusantara.com</title>
+    <link rel="stylesheet" href="../dist/css/style.css" />
+    <link rel="shortcut icon" href="img/AN.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <!--  -->
+    <img
+      src="img/background-pattern.svg"
+      class="opacity-10 h-full w-full -z-50 fixed object-cover" />
+    <header>
+      <div>
+        <!-- NAVBAR -->
+        <nav
+          class="z-10 fixed left-0 right-0 flex bg-white backdrop-opacity-50 justify-between px-[9rem] h-[3.5rem]">
+          <img src="img/AquaNusantara2.svg" class="text-black h-10 my-auto" />
+          <div class="flex">
+            <ul class="list-none text-black flex items-center text-lg">
+              <li class="px-7 hover:font-bold">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="px-7 font-bold"><a href="product.html">Product</a></li>
+              <li class="px-7 hover:font-bold"><a href="blog.html">Blog</a></li>
+            </ul>
+            <ul class="list-none text-black flex items-center text-lg">
+              <li
+                class="px-7 h-[80%] bg-blue-200 flex items-center hover:font-bold mr-1">
+                <a href="">Log in</a>
+              </li>
+              <li
+                class="px-7 h-[80%] border-black border-[2.5px] flex items-center hover:font-bold">
+                <a href="">Sign up</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- HERO -->
+        <div
+          class="bg-[url('/public/img/product-banner.jpg')] min-h-[70vh] min-w-full max-w-full bg-no-repeat bg-cover bg-center text-white overflow-hidden">
+          <div class="bg-black bg-opacity-[0.25] min-h-[70vh]">
+            <div class="pt-[10%] max-w-[800px] px-[9rem]">
+              <h1 class="h1 text-[3rem] font-bold mb-5">
+                Find your Fish on Product Catalog
+              </h1>
+              <p class="p text-[1.25rem] mb-10">
+                Dive in, explore, and let our catalog be your compass as you
+                embark on an exciting voyage to find the fish that captures your
+                heart and enriches your aquatic world.
+              </p>
+              <a href="" class="p-2 bg-white hover:font-bold">
+                <span
+                  class="bg-[url('/public/img/header1.jpg')] bg-clip-text text-transparent"
+                  >Learn more
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="px-[9rem]">
+      <!-- SEARCH -->
+      <form action="/" class="flex justify-center relative -top-7">
+        <input
+          type="text"
+          name="search"
+          placeholder="Search.."
+          class="bg-[#CDEEFF] p-3 w-[50rem] placeholder-black rounded-l-lg" />
+        <button
+          type="submit"
+          class="bg-[#CDEEFF] p-3 rounded-r-lg hover:bg-[#c1e0f0]">
+          <img src="img/Search.svg" class="h-9" />
+        </button>
+      </form>
+      <!-- STORE NAVIGATION -->
+      <div class="mb-28">
+        <h1 class="h1 text-[2rem] font-bold text-center mb-5">Category</h1>
+        <div class="flex flex-wrap items-center justify-center gap-7">
+          <button
+            class="bg-[url('/public/img/saltwater-fish.jpg')] bg-cover mx-[1.25rem] h-[10rem] w-[10rem] drop-shadow-lg text-white hover:shadow-lg hover:scale-110 ease-in-out duration-300 rounded-lg ">
+            <div class="h-full backdrop-brightness-75 flex justify-center items-center font-bold"> Saltwater Fish </div>
+          </button>
+          <button
+            class="bg-[url('/public/img/freshwater-fish.jpg')] bg-cover mx-[1.25rem] h-[10rem] w-[10rem] drop-shadow-lg text-white hover:shadow-lg hover:scale-110 ease-in-out duration-300 rounded-lg">
+            <div class="h-full backdrop-brightness-75 flex justify-center items-center font-bold"> Freshwater Fish </div>
+          </button>
+          <button
+            class="bg-[url('/public/img/shell.jpg')] bg-cover mx-[1.25rem] h-[10rem] w-[10rem] drop-shadow-lg text-white hover:shadow-lg hover:scale-110 ease-in-out duration-300 rounded-lg">
+            <div class="h-full backdrop-brightness-75 flex justify-center items-center font-bold"> Shellfish </div>
+          </button>
+          <button
+            class="bg-[url('/public/img/other-fish.jpg')] bg-cover mx-[1.25rem] h-[10rem] w-[10rem] drop-shadow-lg text-white hover:shadow-lg hover:scale-110 ease-in-out duration-300 rounded-lg">
+            <div class="h-full backdrop-brightness-75 flex justify-center items-center font-bold"> Other Fish </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- CONTENT 1 -->
+      <div>
+        <!-- TITLE -->
+        <div class="flex items-center justify-between mb-10">
+          <h1 class="h1 font-bold text-[2rem]">Best Seller!</h1>
+          <a
+            href=""
+            class="text-[#4dc0fa] hover:text-[#215874] underline duration-300 ease-in-out underline-offset-4 p font-semibold"
+            >Shop the collection →</a
+          >
+        </div>
+        <!-- CATALOG CONTAINER -->
+        <div class="grid gap-20 md:grid-cols-2 lg:grid-cols-4">
+          <!-- ITEM CATALOG -->
+          <div class="shadow-lg rounded-lg overflow-hidden backdrop-blur-sm">
+            <img src="img/tuna.jpg" alt="produk.jpg" class="pb-5" />
+            <div class="p-5">
+              <h2 class="h2 text-[1.5rem] font-bold pb-3">Ikan Tuna</h2>
+              <p class="p text-[#757575] pb-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+                veritatis?
+              </p>
+              <div class="flex items-center justify-between mt-6 mb-2">
+                <p class="p">Rp 40.000,00</p>
+                <a
+                  href=""
+                  class="bg-[#CDEEFF] p-2 rounded-lg hover:bg-transparent hover:border hover:border-black hover:rounded-lg ease-in-out duration-300"
+                  >Purchase</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="shadow-lg rounded-lg overflow-hidden backdrop-blur-sm">
+            <img src="img/tuna.jpg" alt="produk.jpg" class="pb-5" />
+            <div class="p-5">
+              <h2 class="h2 text-[1.5rem] font-bold pb-3">Ikan Tuna</h2>
+              <p class="p text-[#757575] pb-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+                veritatis?
+              </p>
+              <div class="flex items-center justify-between mt-6 mb-2">
+                <p class="p">Rp 40.000,00</p>
+                <a
+                  href=""
+                  class="bg-[#CDEEFF] p-2 rounded-lg hover:bg-transparent hover:border hover:border-black hover:rounded-lg ease-in-out duration-300"
+                  >Purchase</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="shadow-lg rounded-lg overflow-hidden backdrop-blur-sm">
+            <img src="img/tuna.jpg" alt="produk.jpg" class="pb-5" />
+            <div class="p-5">
+              <h2 class="h2 text-[1.5rem] font-bold pb-3">Ikan Tuna</h2>
+              <p class="p text-[#757575] pb-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+                veritatis?
+              </p>
+              <div class="flex items-center justify-between mt-6 mb-2">
+                <p class="p">Rp 40.000,00</p>
+                <a
+                  href=""
+                  class="bg-[#CDEEFF] p-2 rounded-lg hover:bg-transparent hover:border hover:border-black hover:rounded-lg ease-in-out duration-300"
+                  >Purchase</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="shadow-lg rounded-lg overflow-hidden backdrop-blur-sm">
+            <img src="img/tuna.jpg" alt="produk.jpg" class="pb-5" />
+            <div class="p-5">
+              <h2 class="h2 text-[1.5rem] font-bold pb-3">Ikan Tuna</h2>
+              <p class="p text-[#757575] pb-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+                veritatis?
+              </p>
+              <div class="flex items-center justify-between mt-6 mb-2">
+                <p class="p">Rp 40.000,00</p>
+                <a
+                  href=""
+                  class="bg-[#CDEEFF] p-2 rounded-lg hover:bg-transparent hover:border hover:border-black hover:rounded-lg ease-in-out duration-300"
+                  >Purchase</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTENT 2 -->
+      <div class="flex items-center justify-between mt-20 mb-10">
+        <h1 class="h1 font-bold text-[2rem]">Trending Product</h1>
+        <a
+          href=""
+          class="text-[#4dc0fa] hover:text-[#215874] underline duration-300 ease-in-out underline-offset-4 p font-semibold"
+          >Shop the collection →</a
+        >
+      </div>
+      <!-- CATALOG CONTAINER -->
+      <div class="grid gap-20 md:grid-cols-2 lg:grid-cols-4 mb-20">
+        <!-- ITEM CATALOG -->
+        <div class="shadow-lg rounded-lg overflow-hidden backdrop-blur-sm">
+          <img src="img/tuna.jpg" alt="produk.jpg" class="pb-5" />
+          <div class="p-5">
+            <h2 class="h2 text-[1.5rem] font-bold pb-3">Ikan Tuna</h2>
+            <p class="p text-[#757575] pb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              veritatis?
+            </p>
+            <div class="flex items-center justify-between mt-6 mb-2">
+              <p class="p">Rp 40.000,00</p>
+              <a
+                href=""
+                class="bg-[#CDEEFF] p-2 rounded-lg hover:bg-transparent hover:border hover:border-black hover:rounded-lg ease-in-out duration-300"
+                >Purchase</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="shadow-lg rounded-lg overflow-hidden backdrop-blur-sm">
+          <img src="img/tuna.jpg" alt="produk.jpg" class="pb-5" />
+          <div class="p-5">
+            <h2 class="h2 text-[1.5rem] font-bold pb-3">Ikan Tuna</h2>
+            <p class="p text-[#757575] pb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              veritatis?
+            </p>
+            <div class="flex items-center justify-between mt-6 mb-2">
+              <p class="p">Rp 40.000,00</p>
+              <a
+                href=""
+                class="bg-[#CDEEFF] p-2 rounded-lg hover:bg-transparent hover:border hover:border-black hover:rounded-lg ease-in-out duration-300"
+                >Purchase</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="shadow-lg rounded-lg overflow-hidden backdrop-blur-sm">
+          <img src="img/tuna.jpg" alt="produk.jpg" class="pb-5" />
+          <div class="p-5">
+            <h2 class="h2 text-[1.5rem] font-bold pb-3">Ikan Tuna</h2>
+            <p class="p text-[#757575] pb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              veritatis?
+            </p>
+            <div class="flex items-center justify-between mt-6 mb-2">
+              <p class="p">Rp 40.000,00</p>
+              <a
+                href=""
+                class="bg-[#CDEEFF] p-2 rounded-lg hover:bg-transparent hover:border hover:border-black hover:rounded-lg ease-in-out duration-300"
+                >Purchase</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="shadow-lg rounded-lg overflow-hidden backdrop-blur-sm">
+          <img src="img/tuna.jpg" alt="produk.jpg" class="pb-5" />
+          <div class="p-5">
+            <h2 class="h2 text-[1.5rem] font-bold pb-3">Ikan Tuna</h2>
+            <p class="p text-[#757575] pb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              veritatis?
+            </p>
+            <div class="flex items-center justify-between mt-6 mb-2">
+              <p class="p">Rp 40.000,00</p>
+              <a
+                href=""
+                class="bg-[#CDEEFF] p-2 rounded-lg hover:bg-transparent hover:border hover:border-black hover:rounded-lg ease-in-out duration-300"
+                >Purchase</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="shadow-lg rounded-lg overflow-hidden backdrop-blur-sm">
+          <img src="img/tuna.jpg" alt="produk.jpg" class="pb-5" />
+          <div class="p-5">
+            <h2 class="h2 text-[1.5rem] font-bold pb-3">Ikan Tuna</h2>
+            <p class="p text-[#757575] pb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              veritatis?
+            </p>
+            <div class="flex items-center justify-between mt-6 mb-2">
+              <p class="p">Rp 40.000,00</p>
+              <a
+                href=""
+                class="bg-[#CDEEFF] p-2 rounded-lg hover:bg-transparent hover:border hover:border-black hover:rounded-lg ease-in-out duration-300"
+                >Purchase</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="shadow-lg rounded-lg overflow-hidden backdrop-blur-sm">
+          <img src="img/tuna.jpg" alt="produk.jpg" class="pb-5" />
+          <div class="p-5">
+            <h2 class="h2 text-[1.5rem] font-bold pb-3">Ikan Tuna</h2>
+            <p class="p text-[#757575] pb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              veritatis?
+            </p>
+            <div class="flex items-center justify-between mt-6 mb-2">
+              <p class="p">Rp 40.000,00</p>
+              <a
+                href=""
+                class="bg-[#CDEEFF] p-2 rounded-lg hover:bg-transparent hover:border hover:border-black hover:rounded-lg ease-in-out duration-300"
+                >Purchase</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="shadow-lg rounded-lg overflow-hidden backdrop-blur-sm">
+          <img src="img/tuna.jpg" alt="produk.jpg" class="pb-5" />
+          <div class="p-5">
+            <h2 class="h2 text-[1.5rem] font-bold pb-3">Ikan Tuna</h2>
+            <p class="p text-[#757575] pb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              veritatis?
+            </p>
+            <div class="flex items-center justify-between mt-6 mb-2">
+              <p class="p">Rp 40.000,00</p>
+              <a
+                href=""
+                class="bg-[#CDEEFF] p-2 rounded-lg hover:bg-transparent hover:border hover:border-black hover:rounded-lg ease-in-out duration-300"
+                >Purchase</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="shadow-lg rounded-lg overflow-hidden backdrop-blur-sm">
+          <img src="img/tuna.jpg" alt="produk.jpg" class="pb-5" />
+          <div class="p-5">
+            <h2 class="h2 text-[1.5rem] font-bold pb-3">Ikan Tuna</h2>
+            <p class="p text-[#757575] pb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              veritatis?
+            </p>
+            <div class="flex items-center justify-between mt-6 mb-2">
+              <p class="p">Rp 40.000,00</p>
+              <a
+                href=""
+                class="bg-[#CDEEFF] p-2 rounded-lg hover:bg-transparent hover:border hover:border-black hover:rounded-lg ease-in-out duration-300"
+                >Purchase</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </main>
+
+    <footer class="bottom-0">
+      <!-- SPONSOR -->
+      <div
+        class="bg-[url('/public/img/background.png')] object-cover h-[25vh] pt-10">
+        <h1 class="h1 font-bold text-[2rem] text-center pb-10">Featured by</h1>
+        <div class="flex justify-center">
+          <img src="img/KKP.png" />
+          <img src="img/BUMN.png" class="mx-14" />
+          <img src="img/Dana.png" />
+        </div>
+      </div>
+      <!-- FOOTER MENU -->
+      <div class="bg-[#CDEEFF] h-[50vh] px-[9rem] pt-[3rem]">
+        <div class="flex justify-between">
+          <img src="img/AquaNusantara2.svg" class="h-[8vh]" />
+          <div class="flex justify-between w-[30vw]">
+            <div class="flex flex-col">
+              <a href="" class="font-bold h2 text-[1.25rem] mb-2">Home</a>
+              <a href="" class="h2 text-[1rem] my-2">Our Moto</a>
+              <a href="" class="h2 text-[1rem] my-2">Best Seller</a>
+              <a href="" class="h2 text-[1rem] my-2">Offer</a>
+              <a href="" class="h2 text-[1rem] my-2">Testimony</a>
+            </div>
+            <div class="flex flex-col">
+              <a href="" class="font-bold h2 text-[1.25rem] mb-2">Products</a>
+              <a href="" class="h2 text-[1rem] my-2">Promo</a>
+              <a href="" class="h2 text-[1rem] my-2">Category</a>
+              <a href="" class="h2 text-[1rem] my-2">Best Seller</a>
+              <a href="" class="h2 text-[1rem] my-2">Recommendation</a>
+            </div>
+            <div class="flex flex-col">
+              <a href="" class="font-bold h2 text-[1.25rem] mb-2">Blog</a>
+              <a href="" class="h2 text-[1rem] my-2">Higlight</a>
+              <a href="" class="h2 text-[1rem] my-2">Latest Post</a>
+            </div>
+          </div>
+        </div>
+        <hr class="h-1 bg-black mt-[12vh] mb-[2vh]" />
+        <!-- COPYRIGHT & SOCIAL MEDIA -->
+        <div class="flex items-center justify-between">
+          <div>
+            <p class="p my-auto text-[1rem]">AquaNusantara.com &copy;2023</p>
+          </div>
+          <div class="flex items-center">
+            <a href=""><img src="img/Facebook.png" class="ml-10" /></a>
+            <a href=""><img src="img/TwitterX.png" class="ml-10" /></a>
+            <a href=""><img src="img/Instagram Circle.png" class="ml-10" /></a>
+            <a href=""><img src="img/YouTube.png" class="ml-10" /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
